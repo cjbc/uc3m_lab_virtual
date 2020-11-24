@@ -72,7 +72,7 @@ xsi:noNamespaceSchemaLocation="llightning-xml-schema.xsd">
     </container>
     
     <container name="R1">
-      <interface name="eth0.1"/>
+      <interface name="eth0.0"/>
     </container>
     
   </network>
@@ -86,7 +86,7 @@ xsi:noNamespaceSchemaLocation="llightning-xml-schema.xsd">
     </container>
     
     <container name="R2">
-      <interface name="eth0.1"/>
+      <interface name="eth0.0"/>
     </container>
     
   </network>
@@ -121,7 +121,7 @@ xsi:noNamespaceSchemaLocation="llightning-xml-schema.xsd">
   <network name="Pract" type="switch">
     
     <container name="R2">
-      <interface name="eth0.1"/>
+      <interface name="eth0.3"/>
     </container>
     
     <container name="R100">
